@@ -1,0 +1,22 @@
+/*.slider-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #b0b9c4;
+  height:20rem;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}*/
+
+
+/*.slick-arrow {
+  border-radius: 50%;
+  background-color: red;
+}*/

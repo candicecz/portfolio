@@ -1,0 +1,344 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'roboto', sans-serif;
+
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+
+}
+
+.section-one, .slider-section, .section-three {
+  padding: 1rem;
+  color:#444148;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.header-image {
+  display:flex;
+  width:100%;
+  background-position: center;
+  background-image: url('./images/op3.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-size: 3rem;
+  color:#fff;
+  align-self: center;
+  text-align: center;
+  padding-top: 4.5rem;
+}
+
+.candice {
+  font-weight: lighter;
+  padding:1rem;
+}
+
+
+.job {
+  font-size: 1rem;
+}
+
+
+a {
+  text-decoration: none;
+  color:#fff;
+
+}
+
+div .github-icon:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 0.2rem solid #fff;
+  transition: ease-in-out 0.1s;
+}
+
+div .github-icon {
+  max-width:8rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  margin: 0.8rem;
+  padding: 0.6rem 0rem;
+  border: 0.2rem solid #fff;
+}
+
+.icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin:1.5rem 0rem;
+    width:100%;
+    justify-content: center;
+
+}
+
+.icons {
+  font-weight: medium;
+  text-align: center;
+}
+
+.section-one {
+  text-align: center;
+}
+
+.about-me {
+  text-align: justify;
+}
+
+.headline {
+  margin:1rem 0rem;
+  font-size: 1.3rem;
+}
+
+.slider-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(186, 186, 186, 0.3);
+  justify-content: space-between;
+}
+
+.proj-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2.5rem;
+
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  padding-bottom: 0.4rem;
+}
+
+.project-icon {
+  max-width: 10rem;
+
+}
+
+div .view-icon:hover {
+  background-color: rgba(255, 255, 255,0.6);
+  transition: ease-in-out 0.1s;
+}
+
+
+div .view-icon {
+  max-width:7rem;
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  padding: 0.6rem 0rem;
+  background-color: rgba(255, 255, 255,0.3);
+
+  /*background-color: rgba(68, 65, 72,0.2);*/
+  /*border: 0.2rem solid #444148;*/
+  transition: ease-in-out 0.1s;
+}
+.view-type {
+  font-weight: 500;
+  text-align: center;
+  color:#444148;
+}
+
+.section-three {
+  text-align: center;
+}
+.contact-me {
+  text-align: center;
+}
+
+
+/* Utility classes */
+.responsive-img {
+  max-width: 100%;
+}
+.text-center {
+    text-align: center;
+
+}
+
+/* Grid system! */
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Small and up columns */
+
+/* If an element needs all twelve columns, then its width is 100%. Easy. */
+.col-small-12 {
+    width: 100%;
+}
+/* If an element needs 11 of 12 columns, its width is 11/12 * 100% */
+.col-small-11 {
+    width: 91.666%;
+}
+.col-small-10 {
+    width: 83.333%;
+}
+.col-small-9 {
+    width: 75%;
+}
+.col-small-8 {
+    width: 66.666%;
+}
+.col-small-7 {
+    width: 58.333%;
+}
+/* This is the class we'd use if we want two 50/50 elements next to each other */
+.col-small-6 {
+    width: 50%;
+}
+.col-small-5 {
+    width: 41.666%;
+}
+/* This is the class we'd use if we want three elements next to each other */
+.col-small-4 {
+    width: 33.333%;
+}
+/* This is the class we'd use if we want four elements next to each other */
+.col-small-3 {
+    width: 25%;
+}
+.col-small-2 {
+    width: 16.666%;
+}
+/* We'll almost NEVER use this */
+.col-small-1 {
+    width: 8.333%;
+}
+
+
+/* Medium and up screen sizes */
+@media only screen and (min-width: 641px) {
+  .section-one, .section-three {
+    padding: 2rem 15rem;
+  }
+  .slider-section {
+    padding: 0.2rem 15rem;
+  }
+
+  .icon-list {
+      flex-wrap: nowrap;
+      margin:0rem;
+      padding-top: 3rem;
+  }
+
+  div .github-icon {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 1rem;
+    padding: 0.6rem 2rem;
+    margin: 1rem 1rem;
+    border: 0.2rem solid #fff;
+  }
+  .header-image {
+    min-height:50vh;
+  }
+
+  .col-medium-12 {
+      width: 100%;
+  }
+  /* If an element needs 11 of 12 columns, its width is 11/12 * 100% */
+  .col-medium-11 {
+      width: 91.666%;
+  }
+  .col-medium-10 {
+      width: 83.333%;
+  }
+  .col-medium-9 {
+      width: 75%;
+  }
+  .col-medium-8 {
+      width: 66.666%;
+  }
+  .col-medium-7 {
+      width: 58.333%;
+  }
+  /* This is the class we'd use if we want two 50/50 elements next to each other */
+  .col-medium-6 {
+      width: 50%;
+  }
+  .col-medium-5 {
+      width: 41.666%;
+  }
+  /* This is the class we'd use if we want three elements next to each other */
+  .col-medium-4 {
+      width: 33.333%;
+  }
+  /* This is the class we'd use if we want four elements next to each other */
+  .col-medium-3 {
+      width: 25%;
+  }
+  .col-medium-2 {
+      width: 16.666%;
+  }
+  /* We'll almost NEVER use this */
+  .col-medium-1 {
+      width: 8.333%;
+  }
+
+}
+
+
+
+
+/* Large screen sizes */
+@media only screen and (min-width: 1025px) {
+
+  .col-large-12 {
+      width: 100%;
+  }
+  /* If an element needs 11 of 12 columns, its width is 11/12 * 100% */
+  .col-large-11 {
+      width: 91.666%;
+  }
+  .col-large-10 {
+      width: 83.333%;
+  }
+  .col-large-9 {
+      width: 75%;
+  }
+  .col-large-8 {
+      width: 66.666%;
+  }
+  .col-large-7 {
+      width: 58.333%;
+  }
+  /* This is the class we'd use if we want two 50/50 elements next to each other */
+  .col-large-6 {
+      width: 50%;
+  }
+
+  .col-large-5 {
+      width: 41.666%;
+  }
+  /* This is the class we'd use if we want three elements next to each other */
+  .col-large-4 {
+      width: 33.333%;
+  }
+  /* This is the class we'd use if we want four elements next to each other */
+  .col-large-3 {
+      width: 25%;
+  }
+  .col-large-2 {
+      width: 16.666%;
+  }
+  /* We'll almost NEVER use this */
+  .col-large-1 {
+      width: 8.333%;
+  }
+}
