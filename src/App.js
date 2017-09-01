@@ -17,8 +17,8 @@ class App extends Component {
             <p className="candice">Candice Czech</p>
             <p className="job">full-stack developer</p>
             <div className="icon-list">
-              <div className="github-icon col-medium-6 col-small-12">  <a href="https://github.com/candicecz"><p className="icons">Github</p></a></div>
-              <div className="github-icon col-medium-6 col-small-12"><a href="https://www.linkedin.com/in/candiceczech/"><p className="icons">LinkedIn</p></a></div>
+              <a className="github-icon col-medium-6 col-small-12" href="https://github.com/candicecz"><p className="icons">Github</p></a>
+              <a className="github-icon col-medium-6 col-small-12" href="https://www.linkedin.com/in/candiceczech/"><p className="icons">LinkedIn</p></a>
             </div>
           </div>
         </div>
@@ -27,12 +27,9 @@ class App extends Component {
       <div className="section-one">
         <p className="headline">ABOUT</p>
         <p className="about-me">
-          Hi. I'm Candice. For the past three years, I've worked in design which hasSed ut perspiciatis unde omnis iste natus error sit
-          voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-          beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-           magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-            quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+          Hi. I'm Candice. I write code, I sleep code, I eat code, I drink diet code. For the last three years I've worked as a graphic designer while learning to code as a passion project. Gradually,
+          I became more obsessed with learning JavaScript and eventually enrolled at DecodeMTL where I learned backend and frontend Javascript. The things that attracted me to coding in the first place still remain my raison d'etre and
+          that includes striving for the cleanest code in town, a deep love for problem solving and a knack for logical thinking. Checkout my projects below to see what technologies I've used.
         </p>
       </div>
       <div className="slider-section">
@@ -53,7 +50,7 @@ class App extends Component {
           <p className="headline">RetroFlickr</p>
           <p className="description">An app that uses the FLICKR API to retrieve photos and display them with a vintage filter.</p>
           <p className="description">For this project I used: Vanilla Javascript, FLICKR API</p>
-          <div className="view-icon col-medium-6 col-small-12">  <a href="https://github.com/candicecz"><p className="view-type">View Project</p></a></div>
+          <div className="view-icon col-medium-6 col-small-12">  <a href="https://candicecz.github.io/retro-flickr/"><p className="view-type">View Project</p></a></div>
         </div>
         <div className="proj-image col-medium-6">
           <a href="https://candicecz.github.io/vanilla-blackjack/"><img className="project-icon" src={blackjack} alt="retro-flickr-project"/></a>
@@ -87,3 +84,12 @@ export default App;
 //
 //     </div>
 // </header>
+
+// Hi. I'm Candice. I write code, I sleep code, I eat code, I drink diet code. For the last three years I've worked as a graphic designer while learning to code as a passion project. Gradually,
+// I became more obsessed with learning JavaScript and eventually enrolled at DecodeMTL where I learned backend and frontend Javascript. I've worked with Vanilla JavaScript, jQuery, and HTML/CSS on the front end and
+// Node.JS, mySQL, RESTful APIs and Express on the backend. The things that attracted me to coding in the first place still remain my raison d'etre and that includes a deep love for clean code and strong logic and I strive
+// to continually improve both of these aspects in my practice.
+//
+// Hi. I'm Candice. I write code, I sleep code, I eat code, I drink diet code. For the last three years I've worked as a graphic designer while learning to code as a passion project. Gradually,
+// I became more obsessed with learning JavaScript and eventually enrolled at DecodeMTL where I learned backend and frontend Javascript. The things that attracted me to coding in the first place still remain my raison d'etre and
+// that includes striving for the cleanest code in town, a deep love for problem solving and a knack for logical thinking. Checkout my projects below to see what technologies I've used.
