@@ -88,7 +88,7 @@ div .github-icon {
   margin:1rem;
   font-weight: normal;
   text-align: center;
-  color:#111;
+  color:#fff;
   letter-spacing: 5px;
 }
 
@@ -100,7 +100,7 @@ div .github-icon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.7)),
                url('./images/op4.jpg');
   background-attachment:fixed;
   background-position:center;
