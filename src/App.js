@@ -26,8 +26,7 @@ class App extends Component {
         <p className="about-me">
           Hi. I'm Candice. I write code, I sleep code, I eat code, I drink diet code. For the last three years I've worked as a graphic designer while learning to code as a passion project. Gradually,
           I became more obsessed with learning JavaScript and eventually enrolled at DecodeMTL where I learned backend and frontend Javascript. I've worked with Vanilla JavaScript, React, jQuery, and HTML/CSS on the front end and
-          Node.JS, mySQL, RESTful APIs and Express on the backend. The things that attracted me to coding in the first place still remain my raison d'être - a deep love for clean code and strong logic as I strive
-          to continually improve both of these skills in my practice.
+          Node.JS, mySQL, RESTful APIs and Express on the backend. The things that attracted me to coding in the first place still remain my raison d'être - a deep love for strong logic and clean code as I strive to continually improve both of these skills in my practice.
         </p>
       </div>
 
