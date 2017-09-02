@@ -97,7 +97,6 @@ div .github-icon {
 
 .about-me {
   color:#777;
-
   padding:2rem;
 }
 
@@ -295,18 +294,24 @@ div .view-icon {
     letter-spacing: 5px;
   }
 
-  .section-one,  .section-two, {
-      padding: 2rem 7rem;
+  .section-one{
+      padding: 2rem 4rem;
       display:flex;
       flex:wrap;
     }
 
-    .section-three {
+    .section-two, {
         padding: 2rem 7rem;
         display:flex;
         flex:wrap;
-        justify-content: center;
       }
+
+  .section-three {
+      padding: 2rem 7rem;
+      display:flex;
+      flex:wrap;
+      justify-content: center;
+    }
 
   .proj-image {
     display: flex;
