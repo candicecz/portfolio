@@ -22,7 +22,7 @@ class App extends Component {
           </div>
 
       <div className="section-one">
-        <h3><p className="headline projects">ABOUT</p></h3>
+        <h3><p className="headline projects col-small-12">ABOUT</p></h3>
         <p className="about-me col-small-12 ">
           Hi. I'm Candice. I write code, I sleep code, I eat code, I drink diet code. For the last three years I've worked as a graphic designer while learning to code as a passion project. Back when all this was just a hobby, I mostly worked with vanilla JavaScript. Gradually, I became more obsessed with learning JavaScript and eventually enrolled at DecodeMTL where I learned back-end and front-end. On the front-end, I've worked with vanilla JavaScript, jQuery, HTML/CSS and React and
           Node.JS, mySQL, RESTful APIs and Express on the back-end. The things that attracted me to coding in the first place still remain my raison d'être - a deep love for strong logic, clean code and expanding my knowledge through learning and practice as I strive to continually improve.

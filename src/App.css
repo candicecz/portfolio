@@ -2,7 +2,6 @@
   padding:0;
   margin:0;
   font-family: 'roboto', sans-serif;
-  max-width: 100%
 }
 
 *, *:before, *:after {
@@ -16,7 +15,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background-image: url('./images/op3.png');
-  min-height:40vh;
+  min-height:55vh;
   width:100%;
   background-repeat: no-repeat;
   background-size:cover;
@@ -294,24 +293,18 @@ div .view-icon {
     letter-spacing: 5px;
   }
 
-  .section-one{
-      padding: 2rem 4rem;
-      display:flex;
-      flex:wrap;
-    }
-
-    .section-two, {
-        padding: 2rem 7rem;
-        display:flex;
-        flex:wrap;
-      }
-
-  .section-three {
+  .section-one,  .section-two, {
       padding: 2rem 7rem;
       display:flex;
       flex:wrap;
-      justify-content: center;
     }
+
+    .section-three {
+        padding: 2rem 7rem;
+        display:flex;
+        flex:wrap;
+        justify-content: center;
+      }
 
   .proj-image {
     display: flex;
