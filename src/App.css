@@ -109,9 +109,9 @@ div .github-icon {
   justify-content: space-between;
 }
 
-/*.projects {
-  color:#fff;
-}*/
+.projects {
+  color:#111;
+}
 
 .proj-image {
   display: flex;
