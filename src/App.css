@@ -103,8 +103,8 @@ div .github-icon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.7)),
-               url('./images/op4.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.6)),
+               url('./images/op5.jpg');
   background-attachment:fixed;
   background-position:center;
   background-repeat: no-repeat;
@@ -129,6 +129,7 @@ div .github-icon {
   text-align: justify;
   color:#fff;
   letter-spacing: 2px;
+
 }
 
 .description {
@@ -140,36 +141,43 @@ div .github-icon {
 .project-icon {
   max-width: 12rem;
   transition: ease-in-out 200ms;
-
 }
+
+
 
 .project-icon:hover {
   transform: scale(1.1);
   transition: ease-in-out 200ms;
 }
 
-div .view-icon:hover {
+/*div .view-icon:hover {
   background-color: rgba(255, 255, 255,0.8);
   transition: ease-in-out 0.1s;
+}*/
+div .view-icon{
+  max-width:9rem;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background-color: rgba(0, 0, 0,0.4);
+  transition: ease-in-out 0.1s;
+  letter-spacing: 0.5rem;
+  border-radius: 4%;
+  text-align: center;
 }
 
 
-div .view-icon {
-  max-width:7rem;
-  font-size: 1rem;
-  margin-top: 0.8rem;
-  padding: 0.6rem 0rem;
-  background-color: rgba(255, 255, 255,0.6);
-
-  /*background-color: rgba(68, 65, 72,0.2);*/
-  /*border: 0.2rem solid #444148;*/
+div .view-icon:hover {
+  color:#353535;
   transition: ease-in-out 0.1s;
+  background-color: rgba(255, 255, 255,0.4);
+  text-shadow: #000 2rem;
 }
 
 .view-type {
   font-weight: 500;
   text-align: center;
-  color:#353535;
+  /*color:#353535;*/
 }
 
 .section-three {

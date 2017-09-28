@@ -18,6 +18,7 @@ class App extends Component {
             <div className="icon-list">
               <a className="github-icon col-medium-6 col-small-12" href="https://github.com/candicecz"><p className="icons">Github</p></a>
               <a className="github-icon col-medium-6 col-small-12" href="https://www.linkedin.com/in/candiceczech/"><p className="icons">LinkedIn</p></a>
+              <a className="github-icon col-medium-6 col-small-12" href="https://medium.com/@czech.candice"><p className="icons">Medium</p></a>
             </div>
           </div>
 
