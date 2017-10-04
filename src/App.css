@@ -103,7 +103,7 @@ div .github-icon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.5)),
                url('./images/op4.jpg');
   background-attachment:fixed;
   background-position:center;
