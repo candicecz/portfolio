@@ -104,7 +104,7 @@ div .github-icon {
   flex-wrap: wrap;
   align-items: center;
   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.6)),
-               url('./images/op5.jpg');
+               url('./images/op4.jpg');
   background-attachment:fixed;
   background-position:center;
   background-repeat: no-repeat;
@@ -149,11 +149,10 @@ div .github-icon {
 }
 
 div .view-icon{
-  max-width:9rem;
   font-size: 1rem;
   margin-top: 0.4rem;
   padding: 0.4rem 0.8rem;
-  background-color: rgba(0, 0, 0,0.4);
+  background-color: rgba(0, 0, 0,0.6);
   transition: ease-in-out 0.1s;
   letter-spacing: 0.5rem;
   border-radius: 4%;
