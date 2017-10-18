@@ -102,13 +102,10 @@ div .github-icon {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  <<<<<<<: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.8)), url('./images/op7.jpg');
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.8)), url('./images/op7.jpg');
   background-attachment: fixed;
   background-position: center;
-  =======: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.5)), url('./images/op4.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  >>>>>>>: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-between;
 }
