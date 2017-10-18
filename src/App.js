@@ -102,7 +102,6 @@ class App extends Component {
               <p className="description">For this project I used: Vanilla Javascript, Deck Of Cards API.</p>
               <div className="view-icon col-medium-6 col-small-12">
                 <a href="https://candicecz.github.io/vanilla-blackjack/">
-                  {' '}
                   <p className="view-type">View Project</p>
                 </a>
               </div>
